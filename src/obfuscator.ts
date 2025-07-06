@@ -1,6 +1,6 @@
 import type { AstroIntegration } from "astro";
-import * as fs from "fs/promises";
-import * as JSObfuscator from "javascript-obfuscator";
+import fs from "fs/promises";
+import JSObfuscator from "javascript-obfuscator";
 import { extname, join } from "path";
 import { fileURLToPath } from "url";
 
