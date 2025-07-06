@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "src",
+    "skipLibCheck": true,
+    "target": "ES2015",
+    "module": "CommonJS",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

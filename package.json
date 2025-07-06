@@ -1,0 +1,37 @@
+{
+  "name": "astro-obfuscator",
+  "version": "1.0.2",
+  "description": "This Astro integration brings obfuscator utilities to your Astro client project.",
+  "main": "dist/obfuscator.js",
+  "types": "dist/obfuscator.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "author": "Carlos Loureiro",
+	"homepage": "https://github.com/CarlosSLoureiro/astro-obfuscator#readme",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/CarlosSLoureiro/astro-obfuscator.git"
+	},
+  "keywords": [
+		"astro-integration",
+		"astro-component",
+		"astro",
+		"obfuscator",
+		"javascript",
+		"performance",
+    "security"
+	],
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "astro": "^5.11.0",
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
